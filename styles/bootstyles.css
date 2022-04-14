@@ -1,0 +1,54 @@
+/*!AnnMarie Sandridge 04/11/2022 */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    overflow: hidden;
+    display: inline;
+    text-align: right;
+  color: rgb(42, 39, 39);}
+  
+.right {
+    float: right;
+  }
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 10px;
+    text-decoration: none;
+  }
+  
+li a:hover:not(.active) {
+    background-color: rgb(169, 148, 148);
+  }
+  
+.active {
+    background-color: #04AA6D;}
+
+.header {background-color: rgb(183, 167, 167);
+padding: 50px; color: rgb(11, 10, 10);}
+
+.border {border-right: 1px solid rgb(0, 0, 0) ;color: white}
+.leftborder {border-left:1px solid rgb(0, 0, 0)}
+
+.title {font-family: "Raleway", "Segoe UI", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+float: left; font-size: 30px;}
+
+.name{font-family: "Raleway","segoe UI"}
+
+.background {background-color: rgb(251, 232, 215);}
+
+.center{text-align: center;}
+
+.titles {font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-size: 20px;
+text-align: center;}
+
+.footer {background-color: rgb(183, 167, 167);
+  padding: 50px; color: rgb(11, 10, 10);
+text-align: center;}
+
+  
